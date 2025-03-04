@@ -29,3 +29,14 @@ yarn-error.log*
 # IDE
 .idea/
 .vscode/ 
+
+# 忽略所有 CSV 文件
+*.csv
+
+# 忽略所有 Python 文件
+*.py
+
+# 忽略所有 doc 目录下的 Markdown 文件
+doc/*.md
+
+

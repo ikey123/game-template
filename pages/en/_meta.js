@@ -10,15 +10,15 @@ export default {
     type: "menu",
     icon: "material-symbols:category",
     items: {
-      fighting: {
-        title: "Mod",
-        icon: "material-symbols:sports-martial-arts",
-        href: "/en/games/fighting",
+      creative: {
+        title: "Creative Games",
+        icon: "material-symbols:palette",
+        href: "/en/games/creative",
       },
-      arcade: {
-        title: "Stickman Arcade Mod",
-        icon: "material-symbols:gamepad",
-        href: "/en/games/arcade",
+      music: {
+        title: "Music Games",
+        icon: "material-symbols:music-note",
+        href: "/en/games/music",
       },
     },
   },

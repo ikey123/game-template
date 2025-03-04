@@ -10,15 +10,15 @@ export default {
     type: "menu",
     icon: "material-symbols:category",
     items: {
-      fighting: {
-        title: "火柴人格斗模组",
-        icon: "material-symbols:sports-martial-arts",
-        href: "/zh/games/fighting",
+      creative: {  // 新增
+        title: "Creative Games",
+        icon: "material-symbols:palette",
+        href: "/en/games/creative",
       },
-      arcade: {
-        title: "火柴人街机模组",
-        icon: "material-symbols:gamepad",
-        href: "/zh/games/arcade",
+      music: {  // 新增
+        title: "Music Games",
+        icon: "material-symbols:music-note",
+        href: "/en/games/music",
       },
     },
   },
