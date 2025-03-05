@@ -22,10 +22,10 @@ export default {
       },
     },
   },
-  download: {
+  /*download: {
     title: " Download",
     type: "page",
     icon: "material-symbols:download",
     href: "/en/download",
-  },
+  }, */
 };

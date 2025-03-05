@@ -1,0 +1,11 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /404
+Disallow: /500
+
+# Host
+Host: sprunkiincrediboxes.org
+
+# Sitemaps
+Sitemap: sprunkiincrediboxes.org/sitemap.xml

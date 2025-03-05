@@ -40,7 +40,7 @@ export default {
       return getLocaleMessages(locale).ui.editLinkText;
     },
   },
-  siteName: "网站名称",
+  siteName: "Sprunki-Incredibox",
 
   // 主题颜色配置
   primaryColor: "#81c869", // 主题色

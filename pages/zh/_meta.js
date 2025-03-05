@@ -22,10 +22,11 @@ export default {
       },
     },
   },
+  /*
   download: {
     title: "火柴人模组下载",
     type: "page",
     icon: "material-symbols:download",
     href: "/zh/download",
-  },
+  }, */
 };
