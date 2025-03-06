@@ -30,13 +30,16 @@ yarn-error.log*
 .idea/
 .vscode/ 
 
-# 忽略所有 CSV 文件
+# 忽略所有 CSV xlsx 文件
 *.csv
+*.xlsx
 
 # 忽略所有 Python 文件
 *.py
 
 # 忽略所有 doc 目录下的 Markdown 文件
 doc/*.md
+
+
 
 

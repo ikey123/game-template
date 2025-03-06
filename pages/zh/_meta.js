@@ -10,21 +10,39 @@ export default {
     type: "menu",
     icon: "material-symbols:category",
     items: {
-      creative: {  // 新增
-        title: "Creative Games",
+      creative: {
+        title: "创意游戏",
         icon: "material-symbols:palette",
-        href: "/en/games/creative",
+        href: "/zh/games/creative",
+        // 以下为显式映射子页面，注释掉供未来使用
+        /*
+        items: {
+          "sprunki-maker": { title: "Sprunki Maker（中文）" },
+          "sprunki-oc-maker": { title: "Sprunki OC Maker（中文）" },
+        },
+        */
       },
-      music: {  // 新增
-        title: "Music Games",
+      music: {
+        title: "音乐游戏",
         icon: "material-symbols:music-note",
-        href: "/en/games/music",
+        href: "/zh/games/music",
+        // 以下为显式映射子页面，注释掉供未来使用
+        /*
+        items: {
+          "incredibox---sprunki-oc": { title: "Incredibox - Sprunki (OC)（中文）" },
+          "sprunki": { title: "Sprunki（中文）" },
+          "sprunki---interactive-beta": { title: "Sprunki - Interactive BETA（中文）" },
+          "sprunki---vectors": { title: "Sprunki - Vectors（中文）" },
+          "sprunki-but-dandys-world": { title: "Sprunki but Dandy's World（中文）" },
+          "sprunki-phase-5": { title: "Sprunki Phase 5（中文）" },
+          "sprunki-retake-friendly": { title: "Sprunki Retake (Friendly)（中文）" },
+        },
+        */
       },
     },
   },
-  /*
-  download: {
-    title: "火柴人模组下载",
+  /*download: {
+    title: "下载",
     type: "page",
     icon: "material-symbols:download",
     href: "/zh/download",
